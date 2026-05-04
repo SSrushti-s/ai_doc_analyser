@@ -1,0 +1,6 @@
+KarunaAI
+is a multi-modal, AI-driven platform designed to drastically reduce response times for all forms of
+critical local issues, spanning distressed animals, infrastructure failures, public health hazards, 
+and social welfare emergencies, ensuring rapid and targeted intervention across the civic spectrum by
+automating the reporting, verification, and dispatch process. It transforms passive citizen reports 
+into actionable, real-time service requests for Non-Governmental Organizations (NGOs) and rescue centers.
