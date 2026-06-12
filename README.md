@@ -24,7 +24,7 @@ The system uses LLMs, embeddings, and vector databases to retrieve relevant docu
 Architecture
 
 The project follows a Retrieval Augmented Generation (RAG) pipeline:
-
+```
 User Document
       |
       ↓
@@ -59,7 +59,7 @@ LLM Processing
       |
       ↓
 Generated AI Response
-
+```
 ---
 
 # 🛠️ Tech Stack
@@ -89,7 +89,7 @@ Generated AI Response
 
 # 📂 Project Structure
 
-
+```
 ai_doc_analyser/
 
 │
@@ -104,13 +104,13 @@ ai_doc_analyser/
 │
 └── README.md
 
-
+```
 ---
 
 # 🔑 Environment Variables
 
 Create a `.env` file:
-
+```
 .env
 GROQ_API_KEY=your_groq_api_key
 
@@ -180,3 +180,4 @@ Chat history storage
 🗂️ Separate vector indexes per user
 💾 Persistent conversation memory
 🚀 Deployment on cloud platforms
+```
