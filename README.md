@@ -21,34 +21,44 @@ The system uses LLMs, embeddings, and vector databases to retrieve relevant docu
 
 # 🏗️ Architecture
 
-The project follows a RAG workflow:
-Document
-|
-↓
+Architecture
+
+The project follows a Retrieval Augmented Generation (RAG) pipeline:
+
+User Document
+      |
+      ↓
 Document Loader
 (SimpleDirectoryReader)
-|
-↓
-Text Embeddings
+      |
+      ↓
+Text Processing
+(Document Chunking)
+      |
+      ↓
+Embedding Generation
 (Google Gemini Embedding Model)
-|
-↓
+      |
+      ↓
 Vector Database
 (Pinecone)
-|
-↓
+      |
+      ↓
 User Query
-|
-↓
+      |
+      ↓
+Query Embedding
+      |
+      ↓
 Similarity Search
-|
-↓
-LLM Generation
-(Groq Llama 3.3)
-|
-↓
-AI Response
-
+(Retrieve Relevant Document Chunks)
+      |
+      ↓
+LLM Processing
+(Groq - Llama 3.3 70B)
+      |
+      ↓
+Generated AI Response
 
 ---
 
