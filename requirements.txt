@@ -1,0 +1,12 @@
+streamlit
+
+python-dotenv
+
+llama-index
+llama-index-llms-groq
+llama-index-embeddings-google-genai
+llama-index-vector-stores-pinecone
+
+pinecone-client
+
+google-genai
