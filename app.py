@@ -15,7 +15,7 @@ load_dotenv()
 
 # 2. Configuration (RAM-Optimized Cloud Settings)
 # BRAIN: Groq (Free)
-Settings.llm = Groq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
+Settings.llm = Groq(model="openai/gpt-oss-120b", api_key=os.getenv("GROQ_API_KEY"))
 
 # EYES: Gemini (Free) - Ensure you use 'models/embedding-001'
 Settings.embed_model = GoogleGenAIEmbedding(
