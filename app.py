@@ -28,7 +28,7 @@ Settings.embed_model = GoogleGenAIEmbedding(
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 # Replace "your-index-name" with the exact name of the index you created in Pinecone
 # Dimensions must be 768 for Gemini embedding-001
-pinecone_index = pc.Index("rag-index", dimension=2048) 
+pinecone_index = pc.Index("rag-index") 
 
 # Link Pinecone to LlamaIndex
 vector_store = PineconeVectorStore(pinecone_index=pinecone_index)
